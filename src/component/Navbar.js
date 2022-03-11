@@ -13,6 +13,12 @@ function Navbar({ click }) {
       {/* links */}
       <ul className="nav_links">
         <li>
+          <Link to="" className="log_in">
+            <i class="fas fa-user"></i>
+            <span onClick={click}> Sign In</span>
+          </Link>
+        </li>
+        <li>
           <Link to="/cart" className="cart_links">
             {/* Icon */}
             <i className="fas fa-shopping-cart"></i>
